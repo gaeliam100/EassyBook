@@ -10,7 +10,7 @@ const LoginPage = () => {
                 <header id="form-header" className='flex flex-col justify-between h-full'>
                     <div className='flex items-center'>
                         <EasybookLogo />
-                        <span><p className='text-xl'>EassyBook</p></span>
+                        <span><p className='text-xl text-[#3f5ad8]'>EasyBook</p></span>
                     </div>
                     <section className=''>
                     <h1 className="text-4xl text-black font-bold">Ingresa a tu cuenta</h1>
@@ -42,12 +42,12 @@ const LoginPage = () => {
                     <input type="checkbox" name="remember" id=""/>
                     <label htmlFor="remember">Recuerdame</label>
                 </div>
-                <a href="">¿Olivdaste la contraseña?</a>
+                <a href="" className='text-blue-400'>¿Olivdaste la contraseña?</a>
                 </div>
                 <button className='bg-[#3f5ad8] w-full text-white py-3 rounded-md'>Ingresar</button>
                 </form>
                 <section className='flex justify-center'>
-                    <p>¿No tienes una cuenta? <a href="">Crear una cuenta</a></p>
+                    <p>¿No tienes una cuenta? <a href="" className='text-blue-400'>Crear una cuenta</a></p>
                     </section>
                 </section>
                 </section>
